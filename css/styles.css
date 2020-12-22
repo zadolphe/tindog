@@ -1,0 +1,147 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+h2{
+  padding-bottom: 2%;
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+h3{
+  font-family: "Montserrat-Bold";
+}
+p{
+  color: #8f8f8f;
+}
+body{
+font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.0rem;
+}
+.nav-item{
+  padding: 0 25px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+/* buttons */
+
+.download-button{
+  margin: 5% 3% 3% 0;
+}
+
+/* image */
+
+.dog-title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 125px;
+}
+.row{
+  padding-bottom: 20px;
+}
+/* features */
+#features{
+  padding: 10% 15%;
+  background-color: #ffff;
+  position: relative;
+  z-index: 1;
+}
+.features-box{
+  text-align: center;
+  padding: 4%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  color: #ffff;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.testimonial-image{
+  border-radius: 100%;
+  margin-right: 20px;           /*makes it a circle!*/
+  width: 18%;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.press-logo{
+  width: 15%;
+  margin: 0 15px 20px;
+}
+
+/* pricing section */
+
+#pricing{
+  text-align: center;
+  padding: 5%;
+}
+
+.pricing-column{
+  padding: 5% 3%;
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  color: #ffff;
+  padding: 5% 10% 3%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer{
+  text-align: center;
+  font-family: "Montserrat";
+  color: black;
+  padding: 5% 3%;
+}
+.fab{
+  margin: 0 5px;
+}
+
+@media (max-width: 995px){
+  #title{
+    text-align: center;
+  }
+  .dog-title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
